@@ -30,7 +30,7 @@ class sendmail_with_pic:
             s.login(sender, pwd)
             s.sendmail(sender, receiver, msg.as_string())
             s.close()
-            print('yo！')
+            print('yo!')
         except Exception as e:
             print(e)
 
